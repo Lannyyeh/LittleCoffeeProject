@@ -1,0 +1,56 @@
+QMainWindow{
+    background:#000000;
+}
+
+QLabel{
+    color:#FFFFFF;
+}
+QComboBox{
+    background: #2C2C2E;
+    border-radius: 8px;
+    border:1px solid #787878;
+    
+    font-size:24px;
+    font-family:'Century Gothic';
+    font-weight:bold;
+    color: #FFFFFF;
+    padding-left:37px;
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 8px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 8px;
+}
+
+QComboBox::down-arrow {
+    image: url(./downarrow.svg)
+}
+
+QLabel#greeting{
+    
+    font-size:36px;
+    font-family:'Century Gothic';
+    font-weight:bold;
+    }
+
+QLabel#title{
+    font-size:30px;
+    font-family:'Century Gothic';
+    font-weight:bold;
+}
+QLabel#info{
+    font-size:24px;
+    font-family:'Century Gothic';
+    font-weight:bold;
+}
+QLabel#hint{
+    font-size:12px;
+    font-family:Century Gothic';
+    font-weight:bold;
+}
